@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F2:STM32F205RETx U?
+U 1 1 5BD89AF3
+P 4250 3300
+F 0 "U?" H 4250 1414 50  0000 C CNN
+F 1 "STM32F205RETx" H 4250 1323 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 3650 1600 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00237391.pdf" H 4250 3300 50  0001 C CNN
+	1    4250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:TJA1042T U?
+U 1 1 5BD89C09
+P 9500 2600
+F 0 "U?" H 9500 3178 50  0000 C CNN
+F 1 "TJA1042T" H 9500 3087 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9500 2100 50  0001 C CIN
+F 3 "http://www.nxp.com/documents/data_sheet/TJA1042.pdf" H 9500 2600 50  0001 C CNN
+	1    9500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:TJA1042T U?
+U 1 1 5BD89C74
+P 9500 1300
+F 0 "U?" H 9500 1878 50  0000 C CNN
+F 1 "TJA1042T" H 9500 1787 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9500 800 50  0001 C CIN
+F 3 "http://www.nxp.com/documents/data_sheet/TJA1042.pdf" H 9500 1300 50  0001 C CNN
+	1    9500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:MCP2551-I-SN U?
+U 1 1 5BD89DFF
+P 9500 5300
+F 0 "U?" H 9500 5878 50  0000 C CNN
+F 1 "MCP2551-I-SN" H 9500 5787 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9500 4800 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 9500 5300 50  0001 C CNN
+	1    9500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:MCP2551-I-SN U?
+U 1 1 5BD89EF1
+P 9500 4000
+F 0 "U?" H 9500 4578 50  0000 C CNN
+F 1 "MCP2551-I-SN" H 9500 4487 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9500 3500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 9500 4000 50  0001 C CNN
+	1    9500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:CAT24C256 U?
+U 1 1 5BD8AA21
+P 5300 6500
+F 0 "U?" H 5300 6978 50  0000 C CNN
+F 1 "CAT24C256" H 5300 6887 50  0000 C CNN
+F 2 "" H 5300 6500 50  0001 C CNN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 5300 6500 50  0001 C CNN
+	1    5300 6500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

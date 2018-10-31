@@ -1,0 +1,287 @@
+EESchema Schematic File Version 4
+LIBS:CAN_PROXY-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F2:STM32F205RETx U?
+U 1 1 5BD89AF3
+P 5800 3450
+F 0 "U?" H 6100 1700 50  0000 C CNN
+F 1 "STM32F205RETx" H 6350 1600 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5200 1750 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00237391.pdf" H 5800 3450 50  0001 C CNN
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_CAN_LIN:TJA1042T U?
+U 1 1 5BD89C09
+P 2900 3100
+F 0 "U?" H 2750 2750 50  0000 C CNN
+F 1 "TJA1042T" H 2650 2650 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 2600 50  0001 C CIN
+F 3 "http://www.nxp.com/documents/data_sheet/TJA1042.pdf" H 2900 3100 50  0001 C CNN
+	1    2900 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:CAT24C256 U?
+U 1 1 5BD8AA21
+P 5300 6500
+F 0 "U?" H 5300 6978 50  0000 C CNN
+F 1 "CAT24C256" H 5300 6887 50  0000 C CNN
+F 2 "" H 5300 6500 50  0001 C CNN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 5300 6500 50  0001 C CNN
+	1    5300 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:NUP2105L D?
+U 1 1 5BDA12FA
+P 2150 3500
+F 0 "D?" H 1945 3546 50  0000 R CNN
+F 1 "NUP2105L" H 1945 3455 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2375 3450 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 2275 3625 50  0001 C CNN
+	1    2150 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BDA1C55
+P 1400 6700
+F 0 "C?" H 1515 6746 50  0000 L CNN
+F 1 "C" H 1515 6655 50  0000 L CNN
+F 2 "" H 1438 6550 50  0001 C CNN
+F 3 "~" H 1400 6700 50  0001 C CNN
+	1    1400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BDA1D6C
+P 1800 6700
+F 0 "C?" H 1915 6746 50  0000 L CNN
+F 1 "C" H 1915 6655 50  0000 L CNN
+F 2 "" H 1838 6550 50  0001 C CNN
+F 3 "~" H 1800 6700 50  0001 C CNN
+	1    1800 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BDA207E
+P 2150 6700
+F 0 "C?" H 2265 6746 50  0000 L CNN
+F 1 "C" H 2265 6655 50  0000 L CNN
+F 2 "" H 2188 6550 50  0001 C CNN
+F 3 "~" H 2150 6700 50  0001 C CNN
+	1    2150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BDA2085
+P 2550 6700
+F 0 "C?" H 2665 6746 50  0000 L CNN
+F 1 "C" H 2665 6655 50  0000 L CNN
+F 2 "" H 2588 6550 50  0001 C CNN
+F 3 "~" H 2550 6700 50  0001 C CNN
+	1    2550 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BDA20D8
+P 2900 6700
+F 0 "C?" H 3015 6746 50  0000 L CNN
+F 1 "C" H 3015 6655 50  0000 L CNN
+F 2 "" H 2938 6550 50  0001 C CNN
+F 3 "~" H 2900 6700 50  0001 C CNN
+	1    2900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BDA20DF
+P 3300 6700
+F 0 "C?" H 3415 6746 50  0000 L CNN
+F 1 "C" H 3415 6655 50  0000 L CNN
+F 2 "" H 3338 6550 50  0001 C CNN
+F 3 "~" H 3300 6700 50  0001 C CNN
+	1    3300 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:EMI_Filter_CommonMode FL?
+U 1 1 5BDA27C5
+P 1350 3100
+F 0 "FL?" H 1350 3378 50  0000 C CNN
+F 1 "EMI_Filter_CommonMode" H 1350 3287 50  0000 C CNN
+F 2 "" V 1350 3140 50  0000 C CNN
+F 3 "~" V 1350 3140 50  0000 C CNN
+	1    1350 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3200 2250 3200
+Wire Wire Line
+	2250 3200 2250 3300
+Wire Wire Line
+	2400 3000 2050 3000
+Wire Wire Line
+	2050 3000 2050 3300
+Wire Wire Line
+	1800 3300 1800 3100
+Wire Wire Line
+	1800 3100 2400 3100
+Wire Wire Line
+	2050 3000 1550 3000
+Connection ~ 2050 3000
+Wire Wire Line
+	1550 3200 2250 3200
+Connection ~ 2250 3200
+$Comp
+L Interface_CAN_LIN:TJA1042T U?
+U 1 1 5BDA3646
+P 2900 1700
+F 0 "U?" H 2750 1350 50  0000 C CNN
+F 1 "TJA1042T" H 2650 1250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 1200 50  0001 C CIN
+F 3 "http://www.nxp.com/documents/data_sheet/TJA1042.pdf" H 2900 1700 50  0001 C CNN
+	1    2900 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:NUP2105L D?
+U 1 1 5BDA364D
+P 2150 2100
+F 0 "D?" H 1945 2146 50  0000 R CNN
+F 1 "NUP2105L" H 1945 2055 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2375 2050 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 2275 2225 50  0001 C CNN
+	1    2150 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:EMI_Filter_CommonMode FL?
+U 1 1 5BDA3654
+P 1350 1700
+F 0 "FL?" H 1350 1978 50  0000 C CNN
+F 1 "EMI_Filter_CommonMode" H 1350 1887 50  0000 C CNN
+F 2 "" V 1350 1740 50  0000 C CNN
+F 3 "~" V 1350 1740 50  0000 C CNN
+	1    1350 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1800 2250 1800
+Wire Wire Line
+	2250 1800 2250 1900
+Wire Wire Line
+	2400 1600 2050 1600
+Wire Wire Line
+	2050 1600 2050 1900
+Wire Wire Line
+	1800 1900 1800 1700
+Wire Wire Line
+	1800 1700 2400 1700
+Wire Wire Line
+	2050 1600 1550 1600
+Connection ~ 2050 1600
+Wire Wire Line
+	1550 1800 2250 1800
+Connection ~ 2250 1800
+Wire Wire Line
+	1400 6550 1800 6550
+Connection ~ 1800 6550
+Wire Wire Line
+	1800 6550 2150 6550
+Connection ~ 2150 6550
+Wire Wire Line
+	2150 6550 2550 6550
+Connection ~ 2550 6550
+Wire Wire Line
+	2550 6550 2900 6550
+Connection ~ 2900 6550
+Wire Wire Line
+	2900 6550 3300 6550
+Wire Wire Line
+	1400 6850 1800 6850
+Connection ~ 1800 6850
+Wire Wire Line
+	1800 6850 2150 6850
+Connection ~ 2150 6850
+Wire Wire Line
+	2150 6850 2550 6850
+Connection ~ 2550 6850
+Wire Wire Line
+	2550 6850 2900 6850
+Connection ~ 2900 6850
+Wire Wire Line
+	2900 6850 3300 6850
+$Comp
+L power:GND #PWR?
+U 1 1 5BDA5529
+P 2150 3800
+F 0 "#PWR?" H 2150 3550 50  0001 C CNN
+F 1 "GND" H 2155 3627 50  0000 C CNN
+F 2 "" H 2150 3800 50  0001 C CNN
+F 3 "" H 2150 3800 50  0001 C CNN
+	1    2150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDA561D
+P 2900 3600
+F 0 "#PWR?" H 2900 3350 50  0001 C CNN
+F 1 "GND" H 2905 3427 50  0000 C CNN
+F 2 "" H 2900 3600 50  0001 C CNN
+F 3 "" H 2900 3600 50  0001 C CNN
+	1    2900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDA56AF
+P 2150 2400
+F 0 "#PWR?" H 2150 2150 50  0001 C CNN
+F 1 "GND" H 2155 2227 50  0000 C CNN
+F 2 "" H 2150 2400 50  0001 C CNN
+F 3 "" H 2150 2400 50  0001 C CNN
+	1    2150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDA56FB
+P 2900 2250
+F 0 "#PWR?" H 2900 2000 50  0001 C CNN
+F 1 "GND" H 2905 2077 50  0000 C CNN
+F 2 "" H 2900 2250 50  0001 C CNN
+F 3 "" H 2900 2250 50  0001 C CNN
+	1    2900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2250 2900 2100
+Wire Wire Line
+	2150 3800 2150 3700
+Wire Wire Line
+	2900 3600 2900 3500
+Wire Wire Line
+	2150 2400 2150 2300
+$EndSCHEMATC
